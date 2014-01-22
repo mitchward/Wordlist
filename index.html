@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wordlist</title>
+	<link rel="stylesheet" href="wordlist.css">
+</head>
+<body>
+	<h1>Wordlist</h1>
+	<h3>Empty textarea</h3>
+	<textarea name="keywords" class="js-wordlist wordlist"></textarea>
+
+	<h3>Textarea with existing keywords</h3>
+	<textarea name="keywords" class="js-wordlist wordlist">Hello, world, foo, bar, test one, test two</textarea>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="wordlist.js"></script>
+	<script>
+		$('.js-wordlist').wordlist();
+	</script>
+</body>
+</html>

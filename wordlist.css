@@ -1,0 +1,28 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Avenir';
+}
+.wordlist-view {
+	margin-bottom: 20px;
+}
+.wordlist-view * {
+	font-size: 16px;
+	line-height: 22px;
+}
+.wordlist-view span {
+	display: inline-block;
+	padding: 5px;
+	border: solid #000;
+	border-width: 1px 0 1px 1px;
+}
+.wordlist-view span:after {
+	content: "\00D7";
+	margin-left: 5px;
+	cursor: pointer;
+}
+.wordlist-view input {
+	border: 1px solid #000;
+	margin: 0;
+	padding: 5px;
+	width: 110px;
+}
